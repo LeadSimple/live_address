@@ -1,0 +1,14 @@
+[{
+  "components" : {
+    "primary_number" : "33415",
+    "street_predirection" : "NE",
+    "street_name": "165th",
+    "street_suffix" : "Ave",
+    "city_name" : "Yacolt",
+    "state_abbreviation" : "WA",
+    "zipcode" : "98675",
+    "plus4_code": "3523",
+    "delivery_point": "15",
+    "delivery_point_check_digit": "6"
+  }
+}]

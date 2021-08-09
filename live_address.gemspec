@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = Dir["spec/**/*.rb"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'activesupport', '~> 4.1'
+  spec.add_dependency 'activesupport', '~> 5.2'
   spec.add_dependency 'patron'
   spec.add_dependency 'hashie'
 end

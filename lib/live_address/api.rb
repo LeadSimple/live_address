@@ -7,6 +7,8 @@ module LiveAddress
     def initialize
       @sess = Patron::Session.new
       @sess.base_url = "https://api.smartystreets.com"
+      @sess.connect_timeout = 5
+      @sess.timeout = 5
     end
 
     # Public: Post to a resource and return the first item
